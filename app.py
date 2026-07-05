@@ -1,4 +1,5 @@
 print("Hello world")
+import os
 import discord
 from discord.ext import commands
 from discord.activity import Game
@@ -112,7 +113,7 @@ async def check_game(ctx, member: discord.Member):
 
 
 # Replace 'your_bot_token_here' with your actual bot token
-bot.run('YOUR_BOT_TOKEN_HERE')
+bot.run(os.environ.get('DISCORD_BOT_TOKEN', 'your_bot_token_here'))
 
 [자료] 2023_BIOLOGY BASIC 1st 추가자료
 0분
