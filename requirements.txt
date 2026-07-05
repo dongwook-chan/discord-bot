@@ -4,3 +4,4 @@ aiohttp
 black[d]
 pytest
 mypy
+discord
